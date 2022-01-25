@@ -1,7 +1,7 @@
 def calculatePay():
     
     # This first line is provided for you
-    hrs = input("Enter Hours:")
+    hrs = input("Enter Hours: ")
     try:
         float(hrs)
     except:

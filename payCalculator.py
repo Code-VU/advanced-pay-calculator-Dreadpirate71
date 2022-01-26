@@ -2,10 +2,11 @@ def calculatePay():
     
     # This first line is provided for you
     hrs = input("Enter Hours: ")
-    rate = input("Enter Rate: ")
+
     try:
         float(hrs)
         try:
+            rate = input("Enter Rate: ")
             float(rate)
             if float(hrs) > 40 :
                 ot_pay = (float(hrs)- 40) * (float(rate)*1.5)

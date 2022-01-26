@@ -16,9 +16,9 @@ def calculatePay():
                 pay = float(hrs) * float(rate)
             print ("Pay:", pay)
         except:
-            print ("Error, Please enter numeric input")
+            print ("Error, Please enter numeric input\n")
     except:
-        print("Error, Please enter numeric input")
+        print("Error, Please enter numeric input\n")
         
         
     
